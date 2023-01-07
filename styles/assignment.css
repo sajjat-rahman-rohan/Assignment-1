@@ -136,3 +136,54 @@ header {
 .failures-description i {
   color: rgba(22, 216, 135, 1);
 }
+
+/* plan section */
+
+.my-plan {
+  padding-bottom: 100px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.my-plan .section-title {
+  text-align: center;
+  margin: 0px 0px 60px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.plan-title {
+  font-size: 24px;
+  color: #151414;
+  font-weight: 700;
+  margin: 5px 0px;
+}
+.plan-description {
+  font-size: 20px;
+  color: #737272;
+  font-weight: 500;
+}
+
+/* call section */
+
+.call {
+  max-width: 980px;
+  border-radius: 5px;
+  padding: 50px 0px 50px 60px;
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.call-title {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
