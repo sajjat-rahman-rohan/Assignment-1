@@ -49,3 +49,90 @@ header {
   background: #ffffff;
   border-radius: 5px;
 }
+
+/* service section */
+
+.services {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.services-title {
+  color: #151414;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.service-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.service-img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #151414;
+}
+.service-description {
+  font-size: 17px;
+  font-weight: 400;
+  color: #444343;
+  margin: 10px 0px 12px;
+}
+.service-btn {
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #005fac;
+  background: transparent;
+  padding: 8px 25px;
+  border-radius: 25px;
+}
+
+/* failures section */
+
+.failures {
+  padding-top: 130px;
+  padding-bottom: 120px;
+  max-width: 1072px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 50px;
+}
+
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+
+.section-description {
+  width: 416px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 24px 0px 16px;
+}
+
+.failures-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.failures-description i {
+  color: rgba(22, 216, 135, 1);
+}
