@@ -175,7 +175,8 @@ header {
   max-width: 980px;
   border-radius: 5px;
   padding: 50px 0px 50px 60px;
-  background-image: url(../images/gradient1.png), url(../images/watch.png);
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
@@ -186,4 +187,66 @@ header {
   color: #fff;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+/* footer section */
+
+footer {
+  background: #151414;
+  margin-top: 130px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1010px;
+  margin: auto;
+  padding: 70px 0px;
+}
+
+.future {
+  max-width: 495px;
+}
+
+.future-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.future-description {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+
+.subscribe-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  border: 0;
+  padding: 19px 0px 19px 20px;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  outline: 1px solid rgba(255, 255, 255, 1);
+  margin: 25px 0px;
+  background: transparent;
+}
+
+.subscribe-btn {
+  background: #005fac;
+  color: #fff;
+}
+
+.social-icon {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
 }
